@@ -17,8 +17,8 @@ export default function cliente() {
         
       <div className="bordatrasparente">
         <div>
-          <button className='pessoafisica'> PESSOA FÍSICA</button>
-          <h1>*CAMPO OBRIGATÓRIO</h1>
+          <button className='pessoafisica'>PESSOA FÍSICA</button>
+          <h1>*CAMPO OBRIGATÓRIO </h1>
         </div>
 
         <MeuComponente />
