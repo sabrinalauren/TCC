@@ -27,7 +27,7 @@ export default function Componente() {
           onChange={handleInfo12Change}
         />
 
-        <input className='Senha'
+        <input className='senha'
           type="password"
           placeholder="*Senha"
           value={info13}
