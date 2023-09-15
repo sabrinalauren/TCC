@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 export default function cliente() {
   const handleClick = () => {
-    // Lógica a ser executada quando o botão "Finalizar" é clicado
+    
     alert('Botão "Finalizar" clicado!');
   };
 
