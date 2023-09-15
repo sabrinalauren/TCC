@@ -4,6 +4,7 @@ import './index.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Cadastro_cliente from './cadastro_cliente';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

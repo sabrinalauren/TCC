@@ -2,6 +2,7 @@ import './index.scss';
 import MeuComponente from '../components/cadastrocliente';
 import Componente from '../components/emailesenha';
 import React, { useState } from 'react';
+import Cabecalho from '../components/cabecalho'; 
 
 export default function cliente() {
   const handleClick = () => {
@@ -11,6 +12,9 @@ export default function cliente() {
 
   return (
     <header className="cadastro">
+
+        <Cabecalho />
+        
       <div className="bordatrasparente">
         <div>
           <button className='pessoafisica'>PESSOA FÍSICA</button>
